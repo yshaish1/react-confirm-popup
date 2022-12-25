@@ -1,0 +1,48 @@
+{
+  "name": "react-confirm-popup",
+  "version": "1.0.7",
+  "description": "React Component For Confirm Popup",
+  "repository": "https://github.com/yshaish1/react-confirm-popup",
+  "license": "MIT",
+  "author": "Yossi Shaish (Mittinga)",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "jest --config jestconfig.json",
+    "build": "tsc && copyfiles -u 1 src/**/*.css lib/",
+    "format": "prettier --write \"src/**/*.tsx\"",
+    "lint": "tslint -p tsconfig.json",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "keywords": [
+    "react",
+    "confirm popup",
+    "react component",
+    "react popup",
+    "popup",
+    "confirm"
+  ],
+  "devDependencies": {
+    "@types/jest": "^27.4.0",
+    "@types/react": "^17.0.38",
+    "copyfiles": "^2.4.1",
+    "css-loader": "^6.7.3",
+    "jest": "^27.4.7",
+    "prettier": "^2.5.1",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^27.1.3",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}
