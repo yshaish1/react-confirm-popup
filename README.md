@@ -57,6 +57,14 @@ Once the package is installed, you can import the library using `import` approac
 ```js
 import ReactConfirmPopup from 'react-confirm-popup';
 ```
+> **Note** `next.js` for next.js projects you need to add the this code to `next.config.js` 
+> to make sure the project will build with no errors.
+
+```js
+if (typeof require !=== "undefined") {
+  require.extensions[".css"] = (file) => {}
+}
+```
 
 ## Example
 
