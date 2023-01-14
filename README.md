@@ -14,7 +14,6 @@
 <div align="center">
 
 [![npm version](https://img.shields.io/npm/v/react-confirm-popup.svg?style=flat-square)](https://www.npmjs.com/package/react-confirm-popup)
-[![npm bundle size](https://img.shields.io/bundlephobia/minzip/react-confirm-popup?style=flat-square)](https://bundlephobia.com/package/axios@latest)
 [![npm downloads](https://img.shields.io/npm/dm/react-confirm-popup.svg?style=flat-square)](https://npm-stat.com/charts.html?package=react-confirm-popup)
 [![Known Vulnerabilities](https://snyk.io/test/npm/react-confirm-popup/badge.svg)](https://snyk.io/test/npm/react-confirm-popup)
 
